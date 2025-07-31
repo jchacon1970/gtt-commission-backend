@@ -21,6 +21,7 @@ export class AuthMiddleware {
      * Configuración CORS
      */
     cors() {
+        //not APP CORTS
         const corsOptions = {
             origin: process.env.CORS?.split(','),
             credentials: true,
